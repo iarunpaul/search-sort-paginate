@@ -93,10 +93,10 @@ table.pretty {
   background-position: right center;
 }
 
-/*.pretty th .asc {
-  background: asset_url("up_arrow.gif");
+.pretty th .asc {
+  /*background: url("<%= image_pack_tag 'up_arrow.gif' %>");*/
 }
 
 .pretty th .desc {
-  background: asset_url("down_arrow.gif");
-}*/
+  /*background: url("<%= image_pack_tag 'down_arrow.gif' %>");*/
+}
